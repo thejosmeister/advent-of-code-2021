@@ -15,3 +15,14 @@ fun readInputAsString(path: String): String {
 
     return inputStream.bufferedReader().use { it.readText() }.trim()
 }
+
+/**
+ * Subtract array of ints from another
+ */
+fun arraySubtract(one: Array<Int>, two: Array<Int>): IntArray {
+    val out = IntArray(one.size)
+    for (i in one.indices) {
+        out[i] = one[i] - two[i]
+    }
+    return out
+}
