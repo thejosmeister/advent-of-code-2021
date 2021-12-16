@@ -5,7 +5,10 @@
 package aoc
 
 fun main() {
-    findPrimesUpTo100()
+//    val numbers = listOf(9, 3, 7, 6, 6, 6, 11, 11, 6, 3)
+//    val mode = numbers.groupingBy { it }.eachCount().maxBy { it.value }
+    val fasdf = "1234567890"
+    println(fasdf.slice(2..4))
 }
 
 fun findPrimesUpTo100() {

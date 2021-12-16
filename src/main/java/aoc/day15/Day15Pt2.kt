@@ -1,7 +1,6 @@
 package aoc.day15
 
 import aoc.readInputAsString
-import java.util.*
 
 /**
  * Day 15 Part 2
