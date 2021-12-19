@@ -9,7 +9,7 @@ import aoc.readInputAsString
  * Would like to find a smoother way of dealing with binary strings/numbers
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day3/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day3/input.txt")
     val inputNums = inputString.split('\n')
 
     val lengthOfNum = inputNums[0].length

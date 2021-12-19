@@ -9,7 +9,7 @@ import aoc.readInputAsString
  * Not the most efficient, I think it may be vulnerable to a race condition if more than one thread is at play.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day9/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day9/input.txt")
     val inputGrid = inputString.split("\n").map { it.toList().map { it.toString().toInt() } }
 
     val maxX = inputGrid[0].size

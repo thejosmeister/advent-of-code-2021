@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Initially tried doing a thorough method but the input allows shortcuts to be taken.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day8/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day8/input.txt")
     val inputValues = inputString.split("\n").map { it.split(" | ").map { it.split(" ").map { it.toCharArray().sorted().joinToString("") } } }
 
     var out = 0

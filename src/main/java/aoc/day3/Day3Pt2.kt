@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Seems wasteful doubling up the list refinement, could alter the bitCriteriaSplit function to make it recursive?
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day3/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day3/input.txt")
     val inputNums = inputString.split('\n')
 
     val lengthOfNum = inputNums[0].length

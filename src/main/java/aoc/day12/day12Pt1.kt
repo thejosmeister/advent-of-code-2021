@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Was wondering if there was a clever way to use an adjacency matrix but just used a fairly standard formula in the end.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day12/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day12/input.txt")
     val edges = inputString.split("\n").map { it.split("-") }
     val points = edges.flatten().toSet().toList()
 

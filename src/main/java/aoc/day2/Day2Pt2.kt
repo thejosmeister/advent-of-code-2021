@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Will be interesting to see if the submarine becomes a big feature like the 2019 intcode machine.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day2/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day2/input.txt")
 
     val inputMaps = inputString.split('\n').map { parseInstruction(it) }
 

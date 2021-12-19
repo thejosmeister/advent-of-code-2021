@@ -12,7 +12,7 @@ var maxY = 0
  * Had to implement it with a min heap as the normal dijkstras was too slow.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day15/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day15/input.txt")
     val inputGrid = inputString.split("\n").map { it.toList().map { it.toString().toInt() } }
 
     maxX = inputGrid[0].size - 1

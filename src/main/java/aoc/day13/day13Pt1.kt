@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Alot of faffing with upper and lower bounds of ranges but got there in the end.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day13/testInput.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day13/testInput.txt")
     val inputParts = inputString.split("\n")
     val coords = inputParts.slice(0 until inputParts.indexOf("")).map { it.split(",").map { it.toInt() } }
     val instructions = inputParts.slice((inputParts.indexOf("") + 1) until inputParts.size).map { it.split("fold along ")[1] }.map { it.split("=") }

@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Spent a while figuring out why my answer was too high, turns out Char.toInt returns the ASCII value.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day9/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day9/input.txt")
     val inputGrid = inputString.split("\n").map { it.toList().map { it.toString().toInt() } }
 
     val maxX = inputGrid[0].size

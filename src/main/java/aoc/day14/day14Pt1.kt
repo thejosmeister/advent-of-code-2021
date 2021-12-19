@@ -10,7 +10,7 @@ import java.util.Collections.min
  * Pretty simples, kotlin made it a pain to split input the way I wanted
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day14/testInput.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day14/testInput.txt")
     val inputParts = inputString.split("\n")
 
     var polymerString = inputParts[0]

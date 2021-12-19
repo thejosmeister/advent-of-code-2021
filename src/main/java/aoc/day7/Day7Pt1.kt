@@ -10,7 +10,7 @@ import kotlin.math.absoluteValue
  * Wasted a lot of time trying to think up a clever way to find the min. Ended up doing it the brute force way.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day7/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day7/input.txt")
     val numbers = inputString.split(",").map { it.toInt() }.toIntArray()
 
     val outs = mutableListOf<Int>()

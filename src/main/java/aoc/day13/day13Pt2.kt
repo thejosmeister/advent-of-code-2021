@@ -9,7 +9,7 @@ import java.lang.Integer.max
  * Exposed out a few floors in my folding function from pt1
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day13/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day13/input.txt")
     val inputParts = inputString.split("\n")
     val coords = inputParts.slice(0 until inputParts.indexOf("")).map { it.split(",").map { it.toInt() } }
     val instructions = inputParts.slice((inputParts.indexOf("") + 1) until inputParts.size).map { it.split("fold along ")[1] }.map { it.split("=") }

@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * The long preamble nearly kills off all enthusiasm but the easy part 1 keeps you going.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day8/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day8/input.txt")
     val inputValues = inputString.split("\n").map { it.split(" | ").map { it.split(" ") } }
 
     var out = 0

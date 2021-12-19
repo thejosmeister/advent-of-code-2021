@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Refining part one and then also needed to use a long. Could have used this for both days.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day6/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day6/input.txt")
     val inputNumbers = inputString.split(",").map { it.toInt() }.toMutableList()
 
     var countsOfDays = LongArray(9)

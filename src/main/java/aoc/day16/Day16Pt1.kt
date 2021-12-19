@@ -11,7 +11,7 @@ var cursorIndex = 0
  *
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day16/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day16/input.txt")
     val binaryString = inputString.toList().map { it.toString().toInt(16) }.map { Integer.toBinaryString(it).padStart(4, '0') }.joinToString("")
 
     val versions = mutableListOf<Int>()

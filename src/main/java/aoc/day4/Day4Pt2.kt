@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * We are rewarded with a speedy part 2 due to the trudge through part 1.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day4/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day4/input.txt")
     val inputParts = inputString.split('\n')
     val numbers = inputParts[0].split(",").map{ it.toInt() }
     val boards = mutableListOf<BingoBoard>()

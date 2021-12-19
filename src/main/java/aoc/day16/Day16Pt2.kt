@@ -11,7 +11,7 @@ import aoc.readInputAsString
  *
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day16/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day16/input.txt")
     val binaryString = inputString.toList().map { it.toString().toInt(16) }.map { Integer.toBinaryString(it).padStart(4, '0') }.joinToString("")
 
     val out: Long
@@ -27,9 +27,8 @@ fun main() {
 
 private fun consumePacket(binaryString: String): Long {
     readVersionOrTypeId(binaryString)
-    val typeId = readVersionOrTypeId(binaryString)
 
-    when (typeId) {
+    when (readVersionOrTypeId(binaryString)) {
         0 -> return consumeSum(binaryString)
         1 -> return consumeProduct(binaryString)
         2 -> return consumeMin(binaryString)
@@ -38,7 +37,7 @@ private fun consumePacket(binaryString: String): Long {
         5 -> return consumeGreaterThan(binaryString)
         6 -> return consumeLessThan(binaryString)
         7 -> return consumeEqualTo(binaryString)
-        else -> return 1
+        else -> return 0
     }
 }
 

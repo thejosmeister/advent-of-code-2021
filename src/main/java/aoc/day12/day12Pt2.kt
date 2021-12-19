@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Part 1 soln design made this part ok.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day12/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day12/input.txt")
     val edges = inputString.split("\n").map { it.split("-") }
     val points = edges.flatten().toSet().toList()
 

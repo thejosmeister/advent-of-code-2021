@@ -9,7 +9,7 @@ import java.util.*
  * Pretty simple part 2, once they are all 0 I guess they must cycle through the numbers together.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day11/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day11/input.txt")
     var inputGrid = inputString.split("\n").map { it.toList().map { it.toString().toInt() }.toIntArray() }.toMutableList()
 
     val maxX = inputGrid[0].size

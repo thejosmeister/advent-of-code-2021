@@ -12,7 +12,7 @@ import java.util.Collections.min
  * Was tricky business getting some residual counts right.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day14/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day14/input.txt")
     val inputParts = inputString.split("\n")
 
     var polymerString = inputParts[0]

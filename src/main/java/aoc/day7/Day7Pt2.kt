@@ -10,7 +10,7 @@ import kotlin.math.absoluteValue
  * Have to shove a bunch of extra chars into some lines just because the input numbers might not have a max.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day7/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day7/input.txt")
     val numbers = inputString.split(",").map { it.toInt() }.toIntArray()
 
     val sums = numbers.max()?.let { IntArray(it + 1) }

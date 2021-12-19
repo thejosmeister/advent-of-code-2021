@@ -9,7 +9,7 @@ import aoc.readInputAsString
  * Took around 3 mins to run so I guess there is scope for streamlining the min heap
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day15/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day15/input.txt")
     val inputGrid = inputString.split("\n").map { it.toList().map { it.toString().toInt() } }
 
     val newInputLines = mutableListOf<Array<Int>>()

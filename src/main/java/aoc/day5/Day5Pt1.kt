@@ -8,7 +8,7 @@ import aoc.readInputAsString
  *  Spent a while figuring out that the rangeTo method doesn't count down
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day5/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day5/input.txt")
     val inputParts = inputString.split('\n').map { it.split(" -> ").map { it.split(",").map { it.toInt() } } }
 
     var maxX = 0; var maxY = 0

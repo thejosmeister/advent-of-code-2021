@@ -9,7 +9,7 @@ import java.util.*
  * Have to remember which way round x and y go with these arrays of arrays.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day11/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day11/input.txt")
     var inputGrid = inputString.split("\n").map { it.toList().map { it.toString().toInt() }.toIntArray() }.toMutableList()
 
     val maxX = inputGrid[0].size

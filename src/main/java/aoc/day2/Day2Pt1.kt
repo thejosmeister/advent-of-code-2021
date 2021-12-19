@@ -9,7 +9,7 @@ import aoc.readInputAsString
  * There must be a way to not strongly type a map if returning one from a function?
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day2/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day2/input.txt")
     val inputMaps = inputString.split('\n').map { parseInstruction(it) }
 
     var depth = 0

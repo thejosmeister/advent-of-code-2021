@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Did not read the Q right in the first place so was not taking into account that the chunks must have complete chunks inside.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day10/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day10/input.txt")
     val inputLines = inputString.split("\n")
 
 

@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * The old int being too small situation caused problems again. Today was a slow one.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day10/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day10/input.txt")
     val inputLines = inputString.split("\n")
 
     val closingChars = charArrayOf(')', ']', '}', '>')

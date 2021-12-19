@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Part 1 solution made this part easier.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day1/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day1/input.txt")
     val inputNums = inputString.split('\n').map { it.toInt() }
 
     val windowSums = mutableListOf<Int>()

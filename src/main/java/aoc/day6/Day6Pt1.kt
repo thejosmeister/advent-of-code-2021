@@ -8,7 +8,7 @@ import aoc.readInputAsString
  * Pretty quick and dirty.
  */
 fun main() {
-    val inputString = readInputAsString("src/main/aoc/day6/input.txt")
+    val inputString = readInputAsString("src/main/java/aoc/day6/input.txt")
     var inputNumbers = inputString.split(",").map { it.toInt() }.toMutableList()
 
     var day = 0
